@@ -2,4 +2,4 @@
 
 Public homepage, privacy policy and terms for JournalScape.
 
-https://dillon-olivi.github.io/JournalScape/
+https://lorestone-games.github.io/JournalScape/
