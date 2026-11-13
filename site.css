@@ -216,3 +216,5 @@ details p{color:var(--muted);margin:.6em 0 0}
  .ed img{display:none}
  .ed-note{font-size:.6rem}
 }
+.ed-upgrade{font:600 .78rem system-ui,sans-serif;color:var(--ink);opacity:.85}
+@media (max-width:640px){.ed-upgrade{font-size:.62rem}}
