@@ -3,57 +3,275 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>JournalScape</title>
-<meta name="description" content="JournalScape is a cozy planner, to-do list and daily journal for Windows, with levels and titles you earn by finishing real things.">
-<link rel="stylesheet" href="style.css">
+<title>JournalScape · Plan your day, write your story, level up for real</title>
+<meta name="description" content="JournalScape is a free planner, to-do list and daily journal for Windows with light RPG progression: finish real tasks, earn XP, unlock levels, titles and nameplates. No account, no ads, no tracking.">
+<meta name="theme-color" content="#0f1a20">
+<meta property="og:title" content="JournalScape">
+<meta property="og:description" content="A cozy planner, to-do list and daily journal for Windows. Finish real things, earn XP, level up.">
+<meta property="og:image" content="https://journalscape.lorestonegames.com/img/journalscape-header.jpg">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="site.css">
 <link rel="icon" type="image/png" href="icon.png">
 <link rel="canonical" href="https://journalscape.lorestonegames.com/">
 </head>
 <body>
+
+<nav class="topbar" aria-label="Main">
+ <div class="wrap topbar-in">
+  <a class="brand" href="./"><img src="icon.png" width="28" height="28" alt=""> JournalScape</a>
+  <div class="links">
+   <a href="#why">Why</a><a href="#features">Features</a><a href="#gallery">Screenshots</a><a href="#editions">Free &amp; Pro</a><a href="#faq">FAQ</a>
+  </div>
+  <span class="by">by <a href="https://lorestonegames.com/">Lorestone Games</a></span>
+ </div>
+</nav>
+
+<header class="hero">
+ <div class="hero-art" aria-hidden="true"></div>
+ <div class="wrap hero-in">
+  <p class="wordmark">JournalScape</p>
+  <h1>Plan your day. Write your story. <span>Level up for real.</span></h1>
+  <p class="lede">A cozy planner, to-do list and daily journal for Windows, with a light role-playing layer. Every task you finish and every page you write earns experience toward levels, titles and nameplates you can show off.</p>
+  <div class="cta">
+   <span class="btn btn-steam" aria-disabled="true" title="The Steam page will open here when it is live"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="15.5" cy="9" r="2.6" fill="currentColor"/><circle cx="8.5" cy="15" r="2" fill="currentColor"/><path d="M8.5 15 15.5 9" stroke="currentColor" stroke-width="2"/></svg> Coming soon to Steam</span>
+   <a class="btn btn-ghost" href="#features">See what it does</a>
+  </div>
+  <ul class="facts" aria-label="At a glance">
+   <li>Free to play</li><li>Windows 10 &amp; 11</li><li>No account needed</li><li>No ads, no tracking</li><li>Works offline</li>
+  </ul>
+ </div>
+</header>
+
 <main>
-<header><a class="home" href="./">JournalScape</a> <span class="by">by <a href="https://lorestonegames.com/">Lorestone Games</a></span></header>
-<img class="capsule" src="img/journalscape-header.jpg" width="920" height="430" alt="JournalScape: an open book beneath a glowing amethyst, over a moonlit lake">
-<h1>Plan your day. Write your story.</h1>
-<p class="lede">JournalScape is a planner, to-do list and daily journal for Windows, like a traveller's journal for your days. Plan your week, check things off, write about your day, and earn levels and titles as you finish real things in your life.</p>
 
-<div class="card">
-<h2>What it does</h2>
-<ul>
-<li><strong>Today and This week:</strong> plan tasks by day, keep simple daily routines, and check them off.</li>
-<li><strong>A daily journal:</strong> write about your day; each entry is saved to its date, and you can reopen and search past entries.</li>
-<li><strong>Levels and titles:</strong> every finished task earns XP toward levels, titles, nameplates and banners.</li>
-<li><strong>Groceries and checklists:</strong> keep your usual items, build a trip, and check it off in the store.</li>
-<li><strong>A daily boost:</strong> a quote of the day, a word of the day, and "on this day" in history.</li>
-<li><strong>Always-on-top checklist:</strong> a small overlay keeps today's list beside your work.</li>
-<li><strong>Calendar view:</strong> a month view that can show holidays, calendar files you import, and, if you choose, your Google Calendar events.</li>
-<li><strong>On your phone:</strong> an optional <a href="app/">phone companion</a> for today's tasks, routines, journal and groceries, syncing through a private folder in your own Google Drive.</li>
-</ul>
-</div>
+<section id="why" class="band">
+ <div class="wrap">
+  <p class="eyebrow">Why JournalScape</p>
+  <h2>A to-do list that feels like a quest log</h2>
+  <p class="section-lede">Most planners are tidy and forgettable. JournalScape turns your real day into steady, visible progress, without guilt, streak pressure or clutter.</p>
+  <div class="reasons">
+   <article class="reason">
+    <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 4l5.6 11.4L42 17.2l-9 8.8 2.1 12.4L24 32.6l-11.1 5.8L15 26l-9-8.8 12.4-1.8z"/></svg>
+    <h3>Real progress you can see</h3>
+    <p>Finishing a task, keeping a routine or writing in your journal earns XP. Level up and unlock titles, nameplate frames, backgrounds and emblems: rewards for things you actually did.</p>
+   </article>
+   <article class="reason">
+    <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="7" y="9" width="34" height="32" rx="4"/><path d="M7 18h34M16 5v8M32 5v8" class="cut"/></svg>
+    <h3>Your whole day in one calm place</h3>
+    <p>Today, this week and this month side by side, with routines, starred priorities and a small always-on-top checklist that sits beside your work.</p>
+   </article>
+   <article class="reason">
+    <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 10c6-3 11-3 16 1 5-4 10-4 16-1v28c-6-3-11-3-16 1-5-4-10-4-16-1z"/><path d="M24 11v28" class="cut"/></svg>
+    <h3>A journal you'll want to open</h3>
+    <p>One page per day in beautiful journal styles, with gentle prompts, searchable past entries and a note of what you got done that day.</p>
+   </article>
+   <article class="reason">
+    <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 4l16 6v12c0 10-7 18-16 22C15 40 8 32 8 22V10z"/><path d="M17 24l5 5 9-10" class="cut"/></svg>
+    <h3>Private by design</h3>
+    <p>No account, no servers of our own, no ads and no tracking. Your plans and your journal are saved on your own computer.</p>
+   </article>
+  </div>
+ </div>
+</section>
 
-<div class="card">
-<h2>Google Calendar (optional)</h2>
-<p>If you connect your Google account, JournalScape <strong>reads</strong> your calendar list and events so it can show them in its Month view. It asks only for read-only access: it never creates, changes or deletes anything in your Google account. Your events stay on your own computer and are never sent anywhere else. You can disconnect at any time.</p>
-<p>Read the full <a href="privacy.html">privacy policy</a>.</p>
-</div>
+<section id="features" class="features">
+ <div class="wrap">
+  <p class="eyebrow">Features</p>
+  <h2>Everything you need to plan, finish and reflect</h2>
 
-<div class="card">
-<h2>Private by design</h2>
-<p>JournalScape has no accounts, no servers of its own, no ads and no tracking. Everything you plan is stored on your own computer, and, only if you turn on phone sync, in a hidden JournalScape folder in your own Google Drive that no one else can see.</p>
-</div>
+  <div class="feature">
+   <a class="shot" href="img/shot-today.jpg" data-caption="Today: tasks, routines, your level and a daily boost"><img src="img/shot-today.jpg" width="1600" height="900" alt="The Today page: a level 10 nameplate, today's tasks and routines, and the quote, word and history of the day" loading="lazy"></a>
+   <div class="copy">
+    <h3>Today, at a glance</h3>
+    <p>Add what you want to get done, star what matters most and check things off. Routines appear right alongside your tasks.</p>
+    <ul>
+     <li>Star, reorder, add notes, or move a task to another day</li>
+     <li>A quote of the day, a word of the day and "on this day" in history</li>
+     <li>Mark a day off when you need a rest: nothing is lost</li>
+    </ul>
+   </div>
+  </div>
 
-<div class="card">
-<h2>A look inside</h2>
-<div class="gallery">
-<figure><a href="img/js-moon-today.jpg"><img src="img/js-moon-today.jpg" width="1280" height="720" alt="JournalScape: Moonbound style · Today" loading="lazy"></a><figcaption>Moonbound style · Today</figcaption></figure>
-<figure><a href="img/js-aurora-journal.jpg"><img src="img/js-aurora-journal.jpg" width="1280" height="720" alt="JournalScape: Runic aurora journal" loading="lazy"></a><figcaption>Runic aurora journal</figcaption></figure>
-<figure><a href="img/js-laurel-profile.jpg"><img src="img/js-laurel-profile.jpg" width="1280" height="720" alt="JournalScape: Gilded laurel · rewards to earn" loading="lazy"></a><figcaption>Gilded laurel · rewards to earn</figcaption></figure>
-<figure><a href="img/js-grimoire-journal.jpg"><img src="img/js-grimoire-journal.jpg" width="1280" height="720" alt="JournalScape: Wizard's grimoire journal (free)" loading="lazy"></a><figcaption>Wizard's grimoire journal (free)</figcaption></figure>
-<figure><a href="img/js-seal-week.jpg"><img src="img/js-seal-week.jpg" width="1280" height="720" alt="JournalScape: Founding seal · This week" loading="lazy"></a><figcaption>Founding seal · This week</figcaption></figure>
-<figure><a href="img/js-classic-month.jpg"><img src="img/js-classic-month.jpg" width="1280" height="720" alt="JournalScape: Classic look · This month" loading="lazy"></a><figcaption>Classic look · This month</figcaption></figure>
-</div>
-<p class="note">The Moonbound, Runic aurora, Gilded laurel and Founding seal looks are part of the optional Supporter Pack. Everything you earn by finishing tasks stays free.</p>
-</div>
-<footer><span>JournalScape by Lorestone Games</span><a href="./">Home</a><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of service</a><a href="mailto:support@lorestonegames.com">Contact</a></footer>
+  <div class="feature flip">
+   <a class="shot" href="img/shot-week.jpg" data-caption="This week: plan each day of the week"><img src="img/shot-week.jpg" width="1600" height="900" alt="The This week page with tasks planned across the days of the week" loading="lazy"></a>
+   <div class="copy">
+    <h3>Plan the week and the month</h3>
+    <p>Lay out your week day by day, keep loose plans for "sometime this week", and see the whole month on a calendar.</p>
+    <ul>
+     <li>Keep loose plans and give them a day when you are ready</li>
+     <li>A month calendar with your own events and reminders</li>
+     <li>Starred events show up on Today in the days before</li>
+    </ul>
+   </div>
+  </div>
+
+  <div class="feature">
+   <a class="shot" href="img/shot-journal.jpg" data-caption="Journal: the Leather journal style"><img src="img/shot-journal.jpg" width="1600" height="900" alt="The journal in the Leather journal style, with today's entry and a list of past entries" loading="lazy"></a>
+   <div class="copy">
+    <h3>A daily journal</h3>
+    <p>Write about your day on its own page. Each entry is saved to its date, so you can look back, search and download your whole journal.</p>
+    <ul>
+     <li>Several journal styles, each with its own fonts and page design</li>
+     <li>Writing prompts for when you need a starting point</li>
+     <li>See what you finished that day right under your entry</li>
+    </ul>
+   </div>
+  </div>
+
+  <div class="feature flip">
+   <a class="shot" href="img/js-laurel-profile.jpg" data-caption="Profile: nameplates, titles, frames, backgrounds and emblems"><img src="img/js-laurel-profile.jpg" width="1280" height="720" alt="The Profile page: a level 57 nameplate and a gallery of nameplate backgrounds to earn" loading="lazy"></a>
+   <div class="copy">
+    <h3>Levels, titles and nameplates</h3>
+    <p>Your effort builds a character. Earn XP for real work, climb levels, and unlock rewards to make your nameplate your own.</p>
+    <ul>
+     <li>Titles, nameplate frames, backgrounds and emblems to unlock</li>
+     <li>Achievements for tasks, routines, steady days and levels</li>
+     <li>No streaks to break and nothing that punishes a missed day</li>
+    </ul>
+   </div>
+  </div>
+
+  <div class="feature">
+   <a class="shot" href="img/shot-routines.jpg" data-caption="Routines: small habits that repeat on the days you choose"><img src="img/shot-routines.jpg" width="1600" height="660" alt="The Routines page with daily habits and their progress" loading="lazy"></a>
+   <div class="copy">
+    <h3>Routines that stick</h3>
+    <p>Drink water, stretch, tidy one thing: set small routines that repeat on the days you choose and count toward your progress.</p>
+    <ul>
+     <li>Repeat every day or only on the days you choose</li>
+     <li>Routines appear on Today next to your tasks</li>
+     <li>See how often you kept each one over the last 30 days</li>
+    </ul>
+   </div>
+  </div>
+
+  <div class="mini-grid">
+   <article class="mini"><h3>Always-on-top checklist</h3><p>A small overlay keeps today's list beside your work. Tick the "On top" box to keep it above other windows.</p></article>
+   <article class="mini"><h3>Make it yours</h3><p>Choose a colour theme, a journal style and an interface size that suits your screen.</p></article>
+   <article class="mini"><h3>Quiet, pleasant sounds</h3><p>Soft sound effects for finishing tasks and levelling up, with four sound sets to choose from. Or turn them off.</p></article>
+   <article class="mini"><h3>Your data, your backups</h3><p>Everything is saved on your PC. Make a backup or download your journal whenever you like.</p></article>
+  </div>
+ </div>
+</section>
+
+<section id="gallery" class="band gallery-band">
+ <div class="wrap">
+  <p class="eyebrow">Screenshots</p>
+  <h2>A look inside</h2>
+  <div class="gallery">
+   <a class="shot" href="img/js-moon-today.jpg" data-caption="Moonbound look · Today (Supporter Pack)"><img src="img/js-moon-today.jpg" width="1280" height="720" alt="Today in the Moonbound look" loading="lazy"></a>
+   <a class="shot" href="img/shot-month.jpg" data-caption="This month"><img src="img/shot-month.jpg" width="1600" height="900" alt="The month calendar" loading="lazy"></a>
+   <a class="shot" href="img/js-aurora-journal.jpg" data-caption="Runic aurora journal (Supporter Pack)"><img src="img/js-aurora-journal.jpg" width="1280" height="720" alt="The journal in the Runic aurora look" loading="lazy"></a>
+   <a class="shot" href="img/js-grimoire-journal.jpg" data-caption="Wizard's grimoire journal (free)"><img src="img/js-grimoire-journal.jpg" width="1280" height="720" alt="The Wizard's grimoire journal style" loading="lazy"></a>
+   <a class="shot" href="img/js-seal-week.jpg" data-caption="Founding seal look · This week (Supporter Pack)"><img src="img/js-seal-week.jpg" width="1280" height="720" alt="This week in the Founding seal look" loading="lazy"></a>
+   <a class="shot" href="img/shot-sound.jpg" data-caption="Settings · four sound sets"><img src="img/shot-sound.jpg" width="1600" height="900" alt="Sound settings with four sound sets" loading="lazy"></a>
+  </div>
+ </div>
+</section>
+
+<section id="editions" class="editions">
+ <div class="wrap">
+  <p class="eyebrow">Free &amp; Pro</p>
+  <h2>Free to play. No subscriptions, ever.</h2>
+  <p class="section-lede">The planner, journal and progression are free. Two optional one-time add-ons are planned for the Steam release.</p>
+  <div class="tiers">
+   <article class="tier">
+    <h3>JournalScape</h3><p class="price">Free</p>
+    <ul>
+     <li>Today, This week and This month</li>
+     <li>Routines and the daily journal</li>
+     <li>Levels 1 to 10 and all their rewards</li>
+     <li>Always-on-top checklist</li>
+     <li>Journal styles, sounds and settings</li>
+    </ul>
+   </article>
+   <article class="tier tier-pro">
+    <p class="tag">Optional</p>
+    <h3>JournalScape Pro</h3><p class="price">$1.99 <small>one time</small></p>
+    <ul>
+     <li>Levels beyond 10: XP you earn after level 10 is saved and waits for you</li>
+     <li>Grocery lists grouped by store section</li>
+     <li>Calendar links, holidays and calendar files</li>
+     <li>Analytics: your progress over weeks and months</li>
+     <li>Longer journal pages</li>
+    </ul>
+   </article>
+   <article class="tier">
+    <p class="tag">Optional</p>
+    <h3>Supporter Pack</h3><p class="price">$4.99 <small>one time</small></p>
+    <ul>
+     <li>Extra looks for the whole app and journal</li>
+     <li>Supporter nameplates and a thank-you badge</li>
+     <li>Cosmetic only: no XP or gameplay advantage</li>
+    </ul>
+   </article>
+  </div>
+  <div class="pro-shots">
+   <a class="shot" href="img/pro-groceries.jpg" data-caption="Pro · Groceries"><img src="img/pro-groceries.jpg" width="1600" height="900" alt="The Groceries page with items grouped by store section" loading="lazy"></a>
+   <a class="shot" href="img/pro-analytics.jpg" data-caption="Pro · Analytics"><img src="img/pro-analytics.jpg" width="1600" height="900" alt="The Analytics page with charts of completed tasks and XP" loading="lazy"></a>
+  </div>
+  <p class="note">Planned prices in US dollars; Steam shows the price in your currency.</p>
+ </div>
+</section>
+
+<section id="faq" class="band">
+ <div class="wrap faq-wrap">
+  <div>
+   <p class="eyebrow">FAQ</p>
+   <h2>Questions</h2>
+   <details><summary>Is it really free?</summary><p>Yes. The planner, journal, routines and levels 1 to 10 with all their rewards are free. Pro and the Supporter Pack are optional one-time purchases, and there are no subscriptions or ads.</p></details>
+   <details><summary>Is it a game or a planner?</summary><p>Both. It is a real planner and journal first. The role-playing layer (XP, levels and rewards) is there to make finishing things feel good.</p></details>
+   <details><summary>Do I need an account or the internet?</summary><p>No. JournalScape runs on your PC and saves everything there. It works offline.</p></details>
+   <details><summary>What happens if I miss a day?</summary><p>Nothing bad. There are no streaks to lose. Achievements count the days you got something done, not days in a row.</p></details>
+   <details><summary>When can I get it?</summary><p>JournalScape is coming to Steam. The store page link will appear here as soon as it is live.</p></details>
+  </div>
+  <aside class="specs">
+   <h3>System requirements</h3>
+   <dl>
+    <dt>OS</dt><dd>Windows 10 or 11, 64-bit</dd>
+    <dt>Processor</dt><dd>Dual-core 2 GHz</dd>
+    <dt>Memory</dt><dd>4 GB RAM</dd>
+    <dt>Storage</dt><dd>500 MB</dd>
+    <dt>Language</dt><dd>English</dd>
+   </dl>
+   <h3>Developer</h3>
+   <p><a href="https://lorestonegames.com/">Lorestone Games</a></p>
+   <h3>Support</h3>
+   <p><a href="mailto:support@lorestonegames.com">support@lorestonegames.com</a></p>
+  </aside>
+ </div>
+</section>
+
+<section class="privacy">
+ <div class="wrap privacy-grid">
+  <article>
+   <h2>Private by design</h2>
+   <p>JournalScape has no accounts, no servers of its own, no ads and no tracking. Everything you plan is stored on your own computer, and, only if you turn on phone sync, in a hidden JournalScape folder in your own Google Drive that no one else can see. An optional <a href="app/">phone companion</a> shows today's tasks, routines, journal and groceries.</p>
+  </article>
+  <article>
+   <h2>Google Calendar (optional)</h2>
+   <p>If you connect your Google account, JournalScape <strong>reads</strong> your calendar list and events so it can show them in its Month view. It asks only for read-only access: it never creates, changes or deletes anything in your Google account. Your events stay on your own computer and are never sent anywhere else. You can disconnect at any time. Read the full <a href="privacy.html">privacy policy</a>.</p>
+  </article>
+ </div>
+</section>
+
 </main>
+
+<footer class="footer">
+ <div class="wrap footer-in">
+  <span>JournalScape by <a href="https://lorestonegames.com/">Lorestone Games</a></span>
+  <span class="footer-links"><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of service</a><a href="mailto:support@lorestonegames.com">Contact</a></span>
+ </div>
+</footer>
+
+<dialog class="lightbox" aria-label="Screenshot">
+ <button type="button" class="close" aria-label="Close">×</button>
+ <img alt="">
+ <p class="caption"></p>
+</dialog>
+<script>
+(()=>{const box=document.querySelector('.lightbox');if(!box||!box.showModal)return;const img=box.querySelector('img'),cap=box.querySelector('.caption');
+document.querySelectorAll('a.shot').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();img.src=a.href;img.alt=a.querySelector('img').alt;cap.textContent=a.dataset.caption||'';box.showModal();}));
+box.addEventListener('click',e=>{if(e.target===box||e.target.classList.contains('close'))box.close();});})();
+</script>
 </body>
 </html>
